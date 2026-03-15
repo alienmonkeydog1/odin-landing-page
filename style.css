@@ -3,7 +3,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
     min-height: 100vh;
 }
@@ -24,7 +24,7 @@ body{
 }
 .title{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 a{
     color: white;
@@ -49,4 +49,64 @@ button{
     color: white;
     background-color: #3882F6;
     padding: 5px 10px 5px 10px;
+}
+.four_images{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.image{
+    width: 125px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 600px;
+    justify-content: center;
+    align-self: center;
+    padding: 25px;
+    gap: 10px;
+}
+.quote{
+    font-size: 30px;
+    font-weight: 300;
+    color: #1F2937;
+}
+.quoter{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    align-self: flex-end;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.blue-box{
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    gap: 20px;
+    /* border-color: white; */
+    /* width: 600px; */
+    padding: 30px 50px 30px 50px;
+}
+.footer{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
 }
